@@ -1,7 +1,5 @@
 import cv2
 
-
-
 def image_resize(desired_height, desired_width, path_from_user):
     path = path_from_user
 

@@ -13,10 +13,10 @@ def make_photo_binary(input_threshold, filepath):
 
     figure.add_subplot(rows, column, 1)
     plt.imshow(original_img_rgb)
-    plt.title("Original Image (Color)")
-
+    plt.title("Original Image")
     figure.add_subplot(rows, column, 2)
+
     plt.imshow(binary_img, cmap="gray") 
     plt.title("Binary Image with Threshold = " + str(input_threshold))
     plt.tight_layout() 
-    plt.show()
+    plt.show()  
